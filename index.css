@@ -129,31 +129,20 @@ text-align: center;
 color:  #1E1F20;
 }
 .button_black{
-  font-family: OpenSans;
-  font-size: 14px;
-  align-items: center;
-  color: #fff;
-  text-transform: uppercase;
-  background-color:#2B2B2B;
-  height: 52px;
-  width: 165px;
-  top: 1246px;
-  border-radius: 3px;
-  box-shadow: 0px 8px 35px 0px #DFB56D59;
-  border:0ch;
+background-color:#2B2B2B;
 }
 .button_orange{
-font-family: OpenSans;
+background: #DFB56D;
+}
+.button{
+font-weight: 700;
+font-family: Open Sans;
 font-size: 14px;
 align-items: center;
 color: #fff;
 text-transform: uppercase;
-background-color: #DFB56D;
-height: 52px;
-width: 165px;
-top: 1246px;
+min-width: 165px;
+padding: 20px;
 border-radius: 3px;
-box-shadow: 0px 8px 35px 0px #DFB56D59;
-border:0ch;
 }
 
