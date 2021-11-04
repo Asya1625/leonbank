@@ -120,7 +120,7 @@ align-self: flex-end;
 
 }
 .dropdown__item{
-font-family: Open Sans;
+font-family:'Open Sans', sans-serif; ;
 font-size: 13px;
 font-style: normal;
 font-weight: 600;
@@ -128,15 +128,10 @@ line-height: 10px;
 text-align: center;
 color:  #1E1F20;
 }
-.button_black{
-background-color:#2B2B2B;
-}
-.button_orange{
-background: #DFB56D;
-}
+
 .button{
 font-weight: 700;
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;;
 font-size: 14px;
 align-items: center;
 color: #fff;
@@ -144,5 +139,19 @@ text-transform: uppercase;
 min-width: 165px;
 padding: 20px;
 border-radius: 3px;
+border: none;
+box-shadow: 0px 8px 35px 0px #DFB56D59;
+cursor: pointer;
+}
+
+
+.button_black{
+background-color:#2B2B2B;
+}
+.button_orange{
+background: #DFB56D;
+}
+.button:hover{
+  background: #DFB56D;
 }
 
