@@ -154,4 +154,13 @@ background: #DFB56D;
 .button:hover{
   background: #DFB56D;
 }
-
+.social-icons{
+  display:inline-flex;
+  cursor: pointer;
+ 
+  }
+.social-icons li img {
+  margin-right: 10px;
+  padding-top: 40px;
+  }
+  
