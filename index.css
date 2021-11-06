@@ -162,5 +162,8 @@ background: #DFB56D;
 .social-icons li img {
   margin-right: 10px;
   padding-top: 40px;
+  opacity: 15%;
   }
-  
+  .social-icons__png:hover{
+    opacity: 100%;
+  }  
