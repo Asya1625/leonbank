@@ -167,3 +167,11 @@ background: #DFB56D;
   .social-icons__png:hover{
     opacity: 100%;
   }  
+  .h2{
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 36px;
+    position: absolute;
+    text-align: flex-end;
+  }
