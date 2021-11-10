@@ -147,6 +147,7 @@ cursor: pointer;
 
 .button_black{
 background-color:#2B2B2B;
+
 }
 .button_orange{
 background: #DFB56D;
@@ -170,8 +171,31 @@ background: #DFB56D;
   .h2{
     color: #fff;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     position: absolute;
     text-align: flex-end;
   }
+  .tariffs{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+max-height: 305px;
+max-width: 362px;
+
+border-radius: 6px;
+  }
+
+
+  .lead{
+  font-size: 24px;
+  line-height: 28px;
+   text-align: left;
+   color: black;
+   }
+   .tariffs__card{
+     color: #000;
+     opacity:60% ;
+     font-size: 16px;
+     line-height: 42px;
+     text-align: left;
+}
