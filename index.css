@@ -17,6 +17,12 @@ ul{
   
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header{
   position: relative;
   display: flex;
@@ -168,34 +174,60 @@ background: #DFB56D;
   .social-icons__png:hover{
     opacity: 100%;
   }  
-  .h2{
+  .title{
     color: #fff;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
-    position: absolute;
+   
     text-align: flex-end;
   }
-  .tariffs{
-    font-family: 'Open Sans', sans-serif;
-    background-color: #fff;
-max-height: 305px;
-max-width: 362px;
+  .card{
+    background:url(cards/card.png) top 0 right 0, #fff;
+    background-repeat: no-repeat;
+    max-width: 362px; 
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 26px 20px ;
+  
+    }
+  .card__img{
+    margin-bottom: 73px;
 
-border-radius: 6px;
   }
+.card__name{
+  color:#000000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin-bottom: 18px;
+align-self: flex-start;
+}
+.card__lead{
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+margin-bottom: 4px;
+}
+.card__text{
+  color: #666666;
+font-size: 16px;
+line-height: 21px;
 
+}
+.card__feature{
+ display: flex;
+flex-direction: column;
+}
+.card__list{
+  display: flex;
+  margin-bottom: 48px;
+}
+.cards{
 
-  .lead{
-  font-size: 24px;
-  line-height: 28px;
-   text-align: left;
-   color: black;
-   }
-   .tariffs__card{
-     color: #000;
-     opacity:60% ;
-     font-size: 16px;
-     line-height: 42px;
-     text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
