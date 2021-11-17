@@ -239,3 +239,27 @@ flex-direction: column;
   background: url(cards/card2bg.png)top 0 right 0, #fff;;
   background-repeat: no-repeat;
 }
+
+.paginator__item{
+  display:inline-block;
+  vertical-align: middle;
+ 
+}
+.paginator__link{
+  font-weight: 700;
+  font-size: 16px;
+  padding: 21px;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
+.paginator__link:hover{
+background: #353439;
+border-radius: 32px;
+
+}
+.paginator__display{
+font-family: 'Open Sans';
+font-size: 16px;
+padding: 20px;
+}
