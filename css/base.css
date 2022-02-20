@@ -1,0 +1,44 @@
+body{
+    color: #fff;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px ;
+    line-height: 1.42 ;
+     background-repeat: no-repeat;
+  
+    
+    
+  }
+  html{
+    height: 100%;
+}
+  .container_width{
+    max-width: 1200px;
+}
+  .bg{
+    background: url(../lg/lion.png) top right / 100%,
+    url(../lg/bottom.png) bottom 230px right,#29282D;
+    background-repeat: no-repeat;
+    
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  .container{
+    margin: 0 auto;
+    max-width: 1150px;
+    
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  a{
+    color: inherit;
+   }

@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Отзывы</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="reviews.css">
 </head>
 
@@ -38,8 +40,9 @@
             <div class="contactes__workhours">
               График работы
               <div class="dropdown">
-                <div class="dropdown__item"><b>пн-вс: 09:00 - 20:00</b>
-                  <p>Обед: 14:00-14:30</p>
+                <div class="dropdown__item">
+                  <p class="dropdown__text">пн-вс: 09:00 - 20:00</p>
+                  <p class="dropdown__text">Обед: 14:00-14:30</p>
                 </div>
               </div>
             </div>
@@ -61,67 +64,155 @@
     </section>
     <section class="section-reviews">
       <div class="container">
-        <div class="reviews">
-          <div class="review">
-            <div class="review__wrap">
-              <div class="review__avatar">
-                <img class="review__img" src="reviews/avatar1.png" alt="">
+        <ul class="reviews">
+          <li class="reviews__item">
+            <div class="review">
+              <div class="review__wrap">
+                <div class="review__avatar">
+                  <img class="review__img" src="reviews/avatar2.png" alt="">
+                </div>
+                <div class="review__name">
+                  <a class="review__link" href="http:// "> Иван Петрович
+                    <img class="review__link-img" src="reviews/vk.png" alt="">
+                  </a>
+                  <ul class="review__stemps">
+                    <li class="review__stemps-item">
+                      <span class="stamp">Карта Базовая </span>
+                    </li>
+                    <li class="review__stemps-item">
+                      <span class="stamp"> Ипотека 10 лет </span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="review__name">
-                <a class="review__link" href="http:// ">Екатерина Жмых
-                  <img class="review__link-img" src="reviews/vk.png" alt="">
-                </a>
-                <span>Ипотека на 10 лет</span>
-              </div>
+              <content class="review__content">
+                <h3 class="review__lead">Доволен работой банка.</h3>
+                <span class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему
+                  оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                  использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                  двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                  визуально-слухового восприятия.</span>
+                <p class="review__date">Ноябрь 2019</p>
+              </content>
+
             </div>
-            <content class="review__content">
-              <span class="review__lead">Удобная служба поддержки,
-                отвечают 24/7.</span>
-              <span class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-                сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему
-                оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы
-                использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
-                двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
-                визуально-слухового восприятия.</span>
-              <p class="review__date">Ноябрь 2019</p>
-            </content>
-            
-          </div>
-        </div>
+          </li>
+          <li class="reviews__item">
+            <div class="review">
+              <div class="review__wrap">
+                <div class="review__avatar">
+                  <img class="review__img" src="reviews/avatar1.png" alt="">
+                </div>
+                <div class="review__name">
+                  <a class="review__link" href="http:// ">Екатерина Жмых
+                    <img class="review__link-img" src="reviews/vk.png" alt="">
+                  </a>
+                  <span class="stamp">Ипотека на 10 лет</span>
+                </div>
+              </div>
+              <content class="review__content">
+                <h3 class="review__lead">Удобная служба поддержки,
+                  отвечают 24/7.</h3>
+                <span class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему
+                  оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                  использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                  двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                  визуально-слухового восприятия.</span>
+                <p class="review__date">Ноябрь 2019</p>
+              </content>
+
+            </div>
+          </li>
+          <li class="reviews__item">
+            <div class="review">
+              <div class="review__wrap">
+                <div class="review__avatar">
+                  <img class="review__img" src="reviews/avatar3.png" alt="">
+                </div>
+                <div class="review__name">
+                  <a class="review__link" href="http:// "> Лиза Сидорова
+                    <img class="review__link-img" src="reviews/vk.png" alt="">
+                  </a>
+                  <span class="stamp">Ипотека на 10 лет</span>
+                </div>
+              </div>
+              <content class="review__content">
+                <h3 class="review__lead">Хорошие условия.</h3>
+                <span class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему
+                  оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                  использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                  двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                  визуально-слухового восприятия.</span>
+                <p class="review__date">Ноябрь 2019</p>
+              </content>
+
+            </div>
+          </li>
+          <li class="reviews__item">
+            <div class="review">
+              <div class="review__wrap">
+                <div class="review__avatar">
+                  <img class="review__img" src="reviews/avatar4.png" alt="">
+                </div>
+                <div class="review__name">
+                  <a class="review__link" href="http:// "> Антон Игоревич
+                    <img class="review__link-img" src="reviews/vk.png" alt="">
+                  </a>
+                  <span class="stamp">Ипотека на 10 лет</span>
+                </div>
+              </div>
+              <content class="review__content">
+                <h3 class="review__lead">Операторы отзывчивые
+                  и вежливые!</h3>
+                <span class="review__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему
+                  оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                  использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                  двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                  визуально-слухового восприятия.</span>
+                <p class="review__date">Ноябрь 2019</p>
+              </content>
+
+            </div>
+          </li>
+        </ul>
         <nav class="paginator paginator_black ">
-              <h5 class="paginator__display"> Страница 1 из 7 </h5>
-              <ul class="paginator__list">
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">1</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">2</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">3</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">4</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">5</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">6</a>
-                </li>
-                <li class="paginator__item">
-                  <a href="" class="paginator__link">7</a>
-                </li>
-              </ul>
-            </nav>
+          <h5 class="paginator__display"> Страница 1 из 7 </h5>
+          <ul class="paginator__list">
+            <li class="paginator__item">
+              <a href="" class="paginator__link">1</a>
+            </li>
+            <li class="paginator__item">
+              <a href="" class="paginator__link">2</a>
+            </li>
+            <li class="paginator__item">
+              <a href="" class="paginator__link">3</a>
+            </li>
+            <li class="paginator__item">
+              <a href="" class="paginator__link">4</a>
+            </li>
+            <li class="paginator__item">
+              <a href="" class="paginator__link">5</a>
+            </li>
+            <li class="paginator__item">
+              <a href="" class="paginator__link">6</a>
+            </li>
+            <li class="paginator__item">
+              <a href="" class="paginator__link">7</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </section>
     <section class="aside">
-     <div class="container aside__container">
-       <p class="slogan">LionBank-Онлайн Простой способ зайти в банк</p>
-       <img src="reviews/phone.png" alt="" class="aside__img">
+      <div class="container aside__container">
+        <p class="slogan">LionBank-Онлайн Простой способ зайти в банк</p>
+        <img src="reviews/phone.png" alt="" class="aside__img">
       </div>
-    </section> 
+    </section>
     <div class="footer footer_black">
       <div class="footer__container container">
         <div class="footer__left">

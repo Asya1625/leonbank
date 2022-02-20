@@ -1,0 +1,11 @@
+.news{
+    display:flex;
+   justify-content: space-between;
+   margin-left: -25px;
+  }
+  .news{
+    margin-bottom:57px;
+  }
+  .news-section{
+    padding-bottom:152px;
+  }

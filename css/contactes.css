@@ -1,0 +1,28 @@
+.contactes{
+    flex-direction: column;
+    display: flex;
+  font-size: normal;
+  align-self: flex-end;
+  
+  
+  
+  }
+  .contactes__phone{
+    text-decoration: none;
+    font-size: 26px;
+   
+  }
+  .contactes__workhours{
+    position: relative;
+    font-size: 13px;
+    color: #D3A557;
+    text-align: right;
+  
+  
+  }
+  .contactes__workhours:hover .dropdown{  
+    opacity: 1;
+    visibility: visible;
+  
+  
+  } 

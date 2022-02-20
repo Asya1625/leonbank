@@ -1,0 +1,14 @@
+
+  
+  .intro{  
+    background: url(../reviews/lion_header.png) top center / cover;
+  background-repeat: no-repeat;
+  
+
+}
+.intro__title{
+  margin-top:94px ;
+  font-size: 72px;
+  text-align: left;
+  margin-bottom: 144px;
+}

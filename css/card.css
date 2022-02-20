@@ -1,0 +1,57 @@
+.card{
+    background:url(../cards/card.png) top 0 right 0, #fff;
+    background-repeat: no-repeat;
+    max-width: 362px; 
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 26px 20px ;
+  
+    }
+  .card__img{
+    margin-bottom: 73px;
+
+  }
+.card__name{
+  color:#000000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin-bottom: 18px;
+align-self: flex-start;
+}
+.card__lead{
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+margin-bottom: 4px;
+}
+.card__text{
+  color: #666666;
+font-size: 16px;
+line-height: 21px;
+
+}
+.card__feature{
+ display: flex;
+flex-direction: column;
+}
+.card__list{
+  display: flex;
+  margin-bottom: 48px;
+}
+.cards{
+
+  display: flex;
+  justify-content: space-between;
+}
+.card_blue{
+  background: url( ../cards/cards.png)top 0 right 0, #fff;;
+  background-repeat: no-repeat;
+}
+.card_gold{
+  background: url(../cards/card2bg.png)top 0 right 0, #fff;;
+  background-repeat: no-repeat;
+}

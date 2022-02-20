@@ -1,0 +1,16 @@
+.desc{
+    display: inline-block;
+    width: 785px;
+    background-color: #202123;
+    border-radius: 5px;
+    padding: 70px 0 68px 80px ;
+  }
+  .desc__text{
+    max-width:544px;
+  }
+  .desc__title{
+  margin-bottom: 37px;
+  }
+  .desc__text{
+    margin-bottom: 71px;
+  }

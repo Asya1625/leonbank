@@ -1,0 +1,10 @@
+
+    .main-logo{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    .main-logo__img{
+        margin-bottom: 60px;
+    }
+    

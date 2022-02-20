@@ -1,0 +1,10 @@
+.body{
+    background-image: url(../lg/splash.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

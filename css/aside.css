@@ -1,0 +1,13 @@
+.aside{
+    background:#E5C288 ;
+
+  }
+ 
+  .aside__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .aside__img{
+    padding-top: 43px;
+  }

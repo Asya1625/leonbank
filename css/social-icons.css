@@ -1,0 +1,14 @@
+.social-icons{
+    display:inline-flex;
+    cursor: pointer;
+    }
+    .social-icons__item{
+      margin-left:10px;
+    }
+  .social-icons li img {
+    opacity: 15%;
+    }
+    .social-icons__png:hover{
+      opacity: 100%;
+    }  
+  

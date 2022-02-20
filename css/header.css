@@ -1,0 +1,14 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 33px;
+  }
+  .header__left{
+    display: flex;
+    align-items: center;
+  }
+  .header__menu{
+    margin-left:80px ;
+  }

@@ -1,0 +1,35 @@
+.single-news{
+    position: relative;
+    height: 394px ; 
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    margin-left: 25px;
+  }
+  .single-news__img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .single-news__content{
+    position: relative;
+    padding: 0 32px 47px 32px  ;
+    
+  }
+  .single-news__date{
+    display: flex;
+    margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 21px;
+  
+  
+  
+  }
+  .single-news__title{
+  font-size: 24px;
+  line-height: 36px;
+  
+  }
