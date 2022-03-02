@@ -1,5 +1,5 @@
 .card{
-    background:url(../cards/card.png) top 0 right 0, #fff;
+    background:url(..//img/cards/card.png) top 0 right 0, #fff;
     background-repeat: no-repeat;
     max-width: 362px; 
     border-radius: 4px;
@@ -48,10 +48,10 @@ flex-direction: column;
   justify-content: space-between;
 }
 .card_blue{
-  background: url( ../cards/cards.png)top 0 right 0, #fff;;
+  background: url( ..//img/cards/cards.png)top 0 right 0, #fff;;
   background-repeat: no-repeat;
 }
 .card_gold{
-  background: url(../cards/card2bg.png)top 0 right 0, #fff;;
+  background: url(..//img/cards/card2bg.png)top 0 right 0, #fff;;
   background-repeat: no-repeat;
 }
